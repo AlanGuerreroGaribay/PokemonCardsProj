@@ -11,10 +11,9 @@ const BoardPokemonView = () => {
         {pokemonData?.map((pokemon) => {
           return (
             <CardPokemon
-              route={pokemon.id}
-              key={pokemon.id}
-              title={pokemon.name}
-              image={pokemon.sprites.front_shiny}
+              key={pokemon.name}
+              name={pokemon.name}
+              url={pokemon.url}
             />
           );
         })}

@@ -1,5 +1,4 @@
 export type CardPokemonType = {
-  title: string;
-  route: number;
-  image: string;
+  name: string;
+  url: string;
 };

@@ -1,3 +1,3 @@
 export const LayoutHeader = () => {
-  return <div>Header</div>;
+  return <header>Header</header>;
 };
